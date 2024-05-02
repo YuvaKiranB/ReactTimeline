@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.projectImage {
+  width: 100%;
+}
+
+.projectHeading {
+  font-size: 24px;
+  font-family: roboto;
+  margin-bottom: 5px;
+  color: #171f46;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projectDuration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projectDurationIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.projectDurationPara {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: roboto;
+}
+
+.projectPara {
+  margin-top: 5px;
+  font-family: roboto;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.projectUrl {
+  font-family: roboto;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0967d2;
+}
+
+@media (min-width: 768px) {
+  .projectHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .projectHeading {
+    font-size: 26px;
+  }
+
+  .projectDurationIcon {
+    font-size: 20px;
+  }
+
+  .projectDurationPara {
+    font-size: 18px;
+  }
+
+  .projectPara {
+    font-size: 20px;
+  }
+}

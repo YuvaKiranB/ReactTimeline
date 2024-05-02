@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  font-family: roboto;
+  font-size: 24px;
+  color: #171f46;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.span {
+  font-size: 30px;
+  color: #2b237c;
+}
